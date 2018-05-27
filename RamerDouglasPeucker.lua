@@ -1,3 +1,7 @@
+-- Implementation of the Ramer–Douglas–Peucker algorithm
+-- @readme https://github.com/evaera/RobloxLuaAlgorithms#ramerdouglaspeuckerlua
+-- @author evaera
+
 function getSqDist(p1, p2)
 	local dx = p1.x - p2.x
 	local dy = p1.y - p2.y
